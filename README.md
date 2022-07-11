@@ -1,6 +1,6 @@
 # sandbox
 
-## mermaid 1
+## mermaid graph
 
 ```mermaid
   graph TD;
@@ -10,7 +10,7 @@
       C-->D;
 ```
 
-## mermaid 2
+## mermaid sequencediagram
 
 ```mermaid
  sequenceDiagram
@@ -18,7 +18,7 @@
     John-->>Alice: Great!
 ```
 
-## mermaid 3
+## mermaid gantt
  
 ```mermaid
  gantt
@@ -31,7 +31,16 @@
     Task in sec      :2014-01-12  , 12d
     another task      : 24d
 ```
- 
+
+## mermaid pie chart
+
+```mermaid
+pie title Pets adopted by volunteers
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 15
+```
+
 ## geojson
  
 ```geojson
