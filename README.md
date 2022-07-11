@@ -41,6 +41,26 @@ pie title Pets adopted by volunteers
     "Rats" : 15
 ```
 
+## mermaid gitgraph
+
+```mermaid
+gitGraph:
+options
+{
+    "nodeSpacing": 150,
+    "nodeRadius": 10
+}
+end
+commit
+branch newbranch
+checkout newbranch
+commit
+commit
+checkout master
+commit
+commit
+merge newbranch
+````
 ## geojson
  
 ```geojson
