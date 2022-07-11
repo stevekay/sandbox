@@ -44,22 +44,21 @@ pie title Pets adopted by volunteers
 ## mermaid gitgraph
 
 ```mermaid
-gitGraph:
-options
-{
-    "nodeSpacing": 150,
-    "nodeRadius": 10
-}
-end
-commit
-branch newbranch
-checkout newbranch
-commit
-commit
-checkout master
-commit
-commit
-merge newbranch
+gitGraph
+  commit id: "feat(api): ..."
+  commit id: "fix(client): ..."
+  commit id: "feat(modules): ..."
+  commit id: "test(client): ..."
+  commit id: "fix(api): ..."
+  commit id: "ci: ..."
+  branch foo
+  checkout foo
+  commit
+  commit
+  branch master
+  commit id: "fix(foobar): ..."
+  commit
+  merge foo
 ````
 ## geojson
  
